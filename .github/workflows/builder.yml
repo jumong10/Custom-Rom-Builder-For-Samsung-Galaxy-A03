@@ -10,11 +10,11 @@ on:
         GSI:
               description: 'GSI Image Direct Link'
               required: true
-              default: 'https://github.com/naz664/ArrowOS_gsi/releases/download/v2023.10.28/ArrowOS-13.1-arm64_bgN-slim-Unofficial.img.xz'        # find some recommendations in readme (last lines)
+              default: 'https://sourceforge.net/projects/gsi-projects/files/A12.1/crDroid-8.10/v-8.13/21012023/crDroid-8.13-arm64_bvN-Unofficial.img.xz'        # find some recommendations in readme (last lines)
         NAME:
               description: 'Rom Name'
               required: true
-              default: 'ArrowOS-13.1-arm64-ab-BgN-June2026-BIT9.7z' # idk bro name it anything
+              default: 'CrDroid-8.13-arm64-BvN-Sept18-2026.7z' # idk bro name it anything
         VERSION:
               description: 'Baseband Version'
               required: true
