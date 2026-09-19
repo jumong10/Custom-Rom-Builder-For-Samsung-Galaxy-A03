@@ -10,11 +10,11 @@ on:
         GSI:
               description: 'GSI Image Direct Link'
               required: true
-              default: 'https://sourceforge.net/projects/gsi-projects/files/A12.1/crDroid-8.10/v-8.13/21012023/crDroid-8.13-arm64_bvN-Unofficial.img.xz'        # find some recommendations in readme (last lines)
+              default: 'https://sourceforge.net/projects/nippongsi/files/Generic%20-%20crDroid-7.5_sakura%20-%20COLU8KLUM1/crDroid-7.5_sakura-AB-11-20210415-nippongsi.img.gz'        # find some recommendations in readme (last lines)
         NAME:
               description: 'Rom Name'
               required: true
-              default: 'CrDroid-8.13-arm64-BvN-Sept18-2026.7z' # idk bro name it anything
+              default: 'crDroid-7.5-a035f-arm64-bgN.7z' # idk bro name it anything
         VERSION:
               description: 'Baseband Version'
               required: true
@@ -22,7 +22,7 @@ on:
         VENDOR:
               description: 'Enter Direct Link Of Your Version Vendor'
               required: true
-              default: 'https://sourceforge.net/projects/a03-file/files/A035FXXS9CYG1/vendor.img' # use your vendor from SamFW 
+              default: 'https://sourceforge.net/projects/a03-files/files/A035FXXS5CWK1/vendor.img' # use your vendor from SamFW 
 
 jobs:
   Build:
