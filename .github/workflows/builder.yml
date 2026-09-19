@@ -22,7 +22,7 @@ on:
         VENDOR:
               description: 'Enter Direct Link Of Your Version Vendor'
               required: true
-              default: 'https://sourceforge.net/projects/a03-files/files/A035FXXS5CWK1/vendor.img' # use your vendor from SamFW 
+              default: 'https://github.com/jumong10/Custom-Rom-Builder-For-Samsung-Galaxy-A03/releases/download/v0.0/vendor.img' # use your vendor from SamFW 
 
 jobs:
   Build:
