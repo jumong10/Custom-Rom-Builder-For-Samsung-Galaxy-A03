@@ -10,11 +10,11 @@ on:
         GSI:
               description: 'GSI Image Direct Link'
               required: true
-              default: 'https://sourceforge.net/projects/nippongsi/files/Generic%20-%20crDroid-7.5_sakura%20-%20COLU8KLUM1/crDroid-7.5_sakura-AB-11-20210415-nippongsi.img.gz'        # find some recommendations in readme (last lines)
+              default: 'https://sourceforge.net/projects/tipzbuilds/files/GSIs/PixelBlasterOS/20210805/PixelBlaster_2.5_treble_arm64_ab-11.0-20210805-0215-OFFICIAL.img.xz'        # find some recommendations in readme (last lines)
         NAME:
               description: 'Rom Name'
               required: true
-              default: 'crDroid-7.5-a035f-arm64-bgN.7z' # idk bro name it anything
+              default: 'PixelBlaster-2.5-a035f-arm64-gapps.7z' # idk bro name it anything
         VERSION:
               description: 'Baseband Version'
               required: true
@@ -22,7 +22,7 @@ on:
         VENDOR:
               description: 'Enter Direct Link Of Your Version Vendor'
               required: true
-              default: 'https://github.com/jumong10/Custom-Rom-Builder-For-Samsung-Galaxy-A03/releases/download/v0.0/vendor.img' # use your vendor from SamFW 
+              default: 'https://download1649.mediafire.com/vr7n2ouix7bgOmn-jrS0qXdUKP07sKxOTuufPGkrGXLzgYRMp9MQ3iqniEQGffHIZ7VrhJ2TbonUcFVONnSRwABfcw6BUc96Fn3e18luXUhboczPl-8e7F66kdkp4hViGyPTlzhL9kbz8rOHzEkHLio4Hy3SSjAFFKqriP5fYk6r7Q/b04qfq50ydscs7z/vendor.img' # use your vendor from SamFW 
 
 jobs:
   Build:
